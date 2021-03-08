@@ -60,7 +60,6 @@ nav ul li a:hover{
 ................................*/
 #conteudo{
     width: 710px;
-    background: #227115;
     float: left;
 }
 aside{
@@ -83,3 +82,97 @@ h4{
 }
 /*Formulário
 ................................*/
+section#visita h4{
+    text-align: center;
+}
+input{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+input.campo{
+    border: 1px solid #ada484;
+}
+input.botao{
+    background:#9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+fieldset{
+    border: none;
+}
+/*galeria de fotos
+................................*/
+section#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;  
+    padding: 17px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+   }
+
+section#galeria h4{
+    text-align: center;
+}
+
+/*galeria
+................................*/
+#conteudo h4{
+    color: #227115;
+}
+section#conheca {
+    float: left;
+    width: 310;
+    margin-left: 20px;
+}
+    
+section#mapa {
+    float: left;
+    width: 310;
+    margin-left: 20px;
+}
+section#exposicoes {
+    float: left;
+    width: 310px;
+    height: 170px;
+    margin-left: 20px;
+    
+}
+
+section#historia {
+    float: left;
+    width: 310px;
+    height: 170px;
+    margin-left: 20px;
+    
+}
+section#exposicoes ul li{
+    color: #86521a;
+}
+section#historia p{
+    color: #86521a;
+}
+
+
+/*galeria
+................................*/
+footer{
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    
+}
+footer>p a{    
+    margin-left: 10px;
+}
+footer h4{
+    text-transform: lowercase;
+    text-align: center;
+}
